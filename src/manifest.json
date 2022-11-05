@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Kaggle Notebook Translation Helper",
+    "version": "1.0",
+    "description": "Help you translate the Kaggle Notebook using a translation engine such as Google Translate.",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://www.kaggle.com/code/*",
+                "https://www.kaggleusercontent.com/*"
+            ]
+        },
+        {
+            "css": [
+                "styles/content.css"
+            ],
+            "matches": [
+                "https://www.kaggle.com/code/*"
+            ]
+        }
+    ]
+}
