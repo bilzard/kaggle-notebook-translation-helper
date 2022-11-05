@@ -15,17 +15,18 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "https://www.kaggle.com/code/*",
                 "https://www.kaggleusercontent.com/*"
             ]
-        },
-        {
-            "css": [
-                "styles/content.css"
-            ],
-            "matches": [
-                "https://www.kaggle.com/code/*"
-            ]
         }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.kaggle.com/code/*"
     ]
 }
