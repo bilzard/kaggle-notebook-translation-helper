@@ -10,4 +10,8 @@ if (pageUrl.startsWith(notebook_source_url)) {
     for (const code_cell of code_cells) {
         code_cell.classList.add("notranslate");
     }
+    const buttons = document.querySelectorAll("button");
+    for (const button of buttons) {
+        button.classList.add("notranslate")
+    }
 }
