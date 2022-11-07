@@ -3,12 +3,8 @@ const notebook_source_url = "https://www.kaggleusercontent.com/";
 
 if (pageUrl.startsWith(notebook_source_url)) {
     // disable translation on code
-    const code_cells = document.querySelectorAll("div.code_cell");
-    for (const code_cell of code_cells) {
-        code_cell.classList.add("notranslate");
-    }
-    const buttons = document.querySelectorAll("button");
-    for (const button of buttons) {
-        button.classList.add("notranslate")
+    const elements = document.querySelectorAll("div.code_cell, button");
+    for (const element of elements) {
+        element.classList.add("notranslate");
     }
 }
