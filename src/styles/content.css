@@ -1,3 +1,26 @@
 body {
     overflow-y: auto !important;
+    width: 75%;
+}
+
+div#_toc {
+    position: fixed;
+    margin: 8px;
+    top: 0px;
+    bottom: 0px;
+    left: 75%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#_toc-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#_toc>._ul {
+    font-size: 14px !important;
+    padding: 0px 0px 0px 20px !important;
+    margin: 0px !important;
 }
