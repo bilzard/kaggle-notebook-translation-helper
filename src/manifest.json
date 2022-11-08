@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Kaggle Notebook Translation Helper",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Help you translate the Kaggle Notebook using a translation engine such as Google Translate.",
     "icons": {
         "16": "images/icon-16.png",
