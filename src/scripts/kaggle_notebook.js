@@ -24,13 +24,12 @@ if (!document.querySelector("button#link-to-source")) {
         const sourceCodeUrl = iframe.src;
         const linkButton = document.createElement("button");
         linkButton.id = "link-to-source";
-        linkButton.className = "iblsMn";
         const span = document.createElement("span");
-        linkButton.innerHTML = `<span class=${"iblsMn"}>Display IFrame</span>`;
+        linkButton.innerHTML = "Display IFrame";
         linkButton.onclick = () => {
             window.open(sourceCodeUrl, '_blank').focus();
         };
-        waitForElement("div.sc-kvqHdt").then((notebook) => {
+        waitForElement("div[data-testid='notebook-detail-render-tid']").then((notebook) => {
             notebook.prepend(linkButton);
         });
     });
