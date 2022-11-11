@@ -1,11 +1,7 @@
 button#link-to-source {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    font-family: inherit;
     font-weight: 700;
-    background-color: #20BEFF;
-    color: white;
-    border-radius: 8px;
-    padding: 8px;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0px 0px;
+    margin: 0px 16px;
+    float: left;
 }
