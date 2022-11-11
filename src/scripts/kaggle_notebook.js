@@ -25,7 +25,7 @@ if (!document.querySelector("button#link-to-source")) {
         const linkButton = document.createElement("button");
         linkButton.id = "link-to-source";
         const span = document.createElement("span");
-        linkButton.innerHTML = "Display IFrame";
+        linkButton.innerHTML = "Display iframe";
         linkButton.onclick = () => {
             window.open(sourceCodeUrl, '_blank').focus();
         };
