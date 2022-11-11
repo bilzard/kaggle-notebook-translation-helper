@@ -23,4 +23,4 @@ It works as follows
 
 ## Screenshot
 
-https://user-images.githubusercontent.com/36561962/201388155-b1e42cad-017d-451a-86ce-c8fd3950f8a5.mp4
+https://user-images.githubusercontent.com/36561962/201393232-7dd336da-ec2a-40ad-b6c9-7bb5b536336d.mp4
