@@ -16,3 +16,7 @@ button#link-to-source {
     white-space: nowrap;
     width: fit-content;
 }
+
+button#link-to-source:hover {
+    box-shadow: gray 0px 0px 5px;
+}
