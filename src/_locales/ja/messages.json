@@ -1,0 +1,8 @@
+{
+    "appName": {
+        "message": "Kaggle Notebook翻訳ヘルパー"
+    },
+    "appDesc": {
+        "message": "Kaggle Notebookを機械翻訳できるようにします。"
+    }
+}

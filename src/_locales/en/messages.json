@@ -1,0 +1,10 @@
+{
+    "appName": {
+        "message": "Kaggle Notebook Translation Helper",
+        "description": "Kaggle Notebook Translation Helper"
+    },
+    "appDesc": {
+        "message": "Help you translate the Kaggle Notebook using a translation engine such as Google Translate.",
+        "description": "Help you translate the Kaggle Notebook using a translation engine such as Google Translate."
+    }
+}
