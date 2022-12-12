@@ -1,12 +1,10 @@
 // disable translation on code & UI elements
-const elements = document.querySelectorAll("div.code_cell");
-for (const element of elements) {
-    element.classList.add("notranslate");
-}
+document.querySelectorAll("div.code_cell").forEach(code_cell => {
+    code_cell.classList.add("notranslate");
+});
 
 // remove button elements
-const buttons = document.querySelectorAll("button");
-buttons.forEach(button => {
+document.querySelectorAll("button").forEach(button => {
     button.remove()
 });
 
@@ -19,17 +17,17 @@ const title = document.createElement("div");
 title.innerHTML = "Table of Contents";
 title.id = "_toc-title";
 toc.appendChild(title);
-for (const element of document.querySelectorAll("h1")) {
-    const sectionTitle = element.innerText;
+
+document.querySelectorAll("h1").forEach(section_title => {
+    const sectionTitle = section_title.innerText;
     const ul = document.createElement("div");
     ul.className = "_ul";
-    const href = element.querySelector("a").getAttributeNode("href").value;
+    const href = section_title.querySelector("a").getAttributeNode("href").value;
     const link = document.createElement("a");
     link.href = href;
     link.innerHTML = sectionTitle;
     link.target = "_self";
     ul.appendChild(link);
     toc.appendChild(ul);
-}
-const body = document.querySelector("body");
-body.appendChild(toc);
+});
+document.querySelector("body").appendChild(toc);
