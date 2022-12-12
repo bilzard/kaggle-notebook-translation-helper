@@ -3,9 +3,8 @@ button#link-to-source {
     color: rgb(255, 255, 255);
     font-weight: 700;
     font-size: 14px;
-    margin: 0px 0px 20px 48px;
+    margin: 10px 0px 0px 0px;
     align-items: center;
-    background-color: rgb(32, 33, 36);
     border-radius: 20px;
     border: none;
     cursor: pointer;
