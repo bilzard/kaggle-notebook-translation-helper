@@ -1,8 +1,15 @@
 // disable translation on code & UI elements
-const elements = document.querySelectorAll("div.code_cell, button");
+const elements = document.querySelectorAll("div.code_cell");
 for (const element of elements) {
     element.classList.add("notranslate");
 }
+
+// remove button elements
+const buttons = document.querySelectorAll("button");
+buttons.forEach(button => {
+    button.remove()
+});
+
 /*
  * insert table of contents
  */
