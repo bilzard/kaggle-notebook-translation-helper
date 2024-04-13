@@ -1,3 +1,5 @@
+**Note: This extension is no more maintained.**
+
 # Kaggle Notebook Translation Helper
 
 Since the Kaggle Notebook source code is an independent resource imported via `iframe` tags, it cannot be directly translated by translation engines such as Google Translate.
@@ -9,12 +11,6 @@ It works as follows
 2. When clicked, the Kaggle Notebook source code is opened in a new tab. This page is the `src` attribute in the original `iframe` tag, so you can translate it using a translation engine such as Google Translate.
 
 ## Installation
-
-### 1. From Chrome Web Store
-
-[Kaggle Notebook Translation Helper](https://chrome.google.com/webstore/detail/kaggle-notebook-translati/pbmmnjfppdiejknmcbibbhpgibhggboc)
-
-### 2. From this repository
 
 1. clone this repository
 2. [load an unpacked extension in developer mode][manual] (add resources in `src` directory)
