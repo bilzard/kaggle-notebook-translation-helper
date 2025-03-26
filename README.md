@@ -1,4 +1,6 @@
-**Note: This extension is no more maintained.**
+## ⚠️ This repository is no longer maintained
+
+This project is archived and no longer actively maintained. We may not respond to issues or pull requests.
 
 # Kaggle Notebook Translation Helper
 
